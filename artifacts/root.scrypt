@@ -1,0 +1,10 @@
+
+contract Root {
+  int answer;
+  constructor(int ans) {
+    this.answer = ans;
+  }
+  public function unlock(int input1, int input2) {
+    require(input1 * input2 == this.answer);
+  }
+}

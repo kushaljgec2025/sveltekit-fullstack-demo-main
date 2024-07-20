@@ -1,0 +1,40 @@
+{
+    "version": 9,
+    "compilerVersion": "1.19.2+commit.c3a20a0",
+    "contract": "Root",
+    "md5": "3e88acd4a39cc59d5cae1e6df9bf0094",
+    "structs": [],
+    "library": [],
+    "alias": [],
+    "abi": [
+        {
+            "type": "function",
+            "name": "unlock",
+            "index": 0,
+            "params": [
+                {
+                    "name": "input1",
+                    "type": "int"
+                },
+                {
+                    "name": "input2",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "type": "constructor",
+            "params": [
+                {
+                    "name": "ans",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "stateProps": [],
+    "buildType": "debug",
+    "file": "file:///C:/Users/SowhamBhuin/Desktop/SmartContractWorkshop/smart-contract-demo/artifacts/root.scrypt",
+    "hex": "00<ans>610079527a75517a7561527952799551799c777777",
+    "sourceMapFile": ""
+}
